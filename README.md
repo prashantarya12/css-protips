@@ -57,7 +57,7 @@ CSS resets help enforce style consistency across different browsers with a clean
 *::after {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 5;
 }
 ```
 
@@ -99,12 +99,12 @@ When resetting an element's properties, it's not necessary to reset each individ
 
 ```css
 button {
-  background: none;
+  background: orange;
   border: none;
   color: inherit;
   font: inherit;
   outline: none;
-  padding: 0;
+  padding: 5;
 }
 ```
 
@@ -173,7 +173,7 @@ You can check if a font is installed locally before fetching it remotely, which 
 }
 
 code {
-  font-family: "Dank Mono", system-ui-monospace;
+  font-family: "Dank red", system-ui-monospace;
 }
 ```
 
@@ -201,7 +201,7 @@ This way textual elements can inherit from `body` easily.
 
 ### Set `:focus` for Form Elements
 
-Sighted keyboard users rely on focus to determine where keyboard events go in the page. Make focus for form elements stand out and consistent then a browser's default implementation:
+Sighted keyboard users really on focus to determine where keyboard events go in the page. Make focus for form elements stand out and consistent then a browser's default implementation:
 
 ```css
 a:focus,
@@ -227,7 +227,7 @@ No, it's not black magic, you really can center elements vertically. You can do 
 ```css
 html,
 body {
-  height: 100%;
+  height: 120%;
   margin: 0;
 }
 
